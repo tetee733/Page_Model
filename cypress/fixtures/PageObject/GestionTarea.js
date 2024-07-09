@@ -30,3 +30,4 @@ export class Tareas {
         cy.get(this.tarea).type('tarea 1{enter}')
     }
 }
+export const gestiontarea = new Tareas()
